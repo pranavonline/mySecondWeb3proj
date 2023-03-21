@@ -1,0 +1,113 @@
+{
+  "contractName": "Example",
+  "abi": [
+    {
+      "inputs": [],
+      "stateMutability": "nonpayable",
+      "type": "constructor"
+    }
+  ],
+  "metadata": "{\"compiler\":{\"version\":\"0.8.19+commit.7dd6d404\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"constructor\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"project:/contracts/Example.sol\":\"Example\"},\"evmVersion\":\"paris\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"project:/contracts/Example.sol\":{\"keccak256\":\"0x1feb710a3988949777715d21362a0cbfb7f76bda447a78c38a9381ca2d5af478\",\"urls\":[\"bzz-raw://1b39ec04d3e67146020f077790ce038d19e0c5cfa88fb51223be6d479503f5e3\",\"dweb:/ipfs/QmReCm3nbgpHM7ePorJBvbbipGVyN5giMS4wU1Le8ViLjD\"]}},\"version\":1}",
+  "bytecode": "0x6080604052348015600f57600080fd5b50603f80601d6000396000f3fe6080604052600080fdfea2646970667358221220731593565245b07c0129bab489341833eb92534381f5709695a49d6b716e76fe64736f6c63430008130033",
+  "deployedBytecode": "0x6080604052600080fdfea2646970667358221220731593565245b07c0129bab489341833eb92534381f5709695a49d6b716e76fe64736f6c63430008130033",
+  "immutableReferences": {},
+  "generatedSources": [],
+  "deployedGeneratedSources": [],
+  "sourceMap": "28:71:0:-:0;;;51:46;;;;;;;;;;28:71;;;;;;",
+  "deployedSourceMap": "28:71:0:-:0;;;;;",
+  "source": "pragma solidity ^0.8.19;\n\n  contract Example {\n    constructor() public { \n    // constructor\n  }\n}\n\n",
+  "sourcePath": "/Users/pranav.gupta/Downloads/Pranav/POC/mySecondWeb3proj/contracts/Example.sol",
+  "ast": {
+    "absolutePath": "project:/contracts/Example.sol",
+    "exportedSymbols": {
+      "Example": [
+        6
+      ]
+    },
+    "id": 7,
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 1,
+        "literals": [
+          "solidity",
+          "^",
+          "0.8",
+          ".19"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "0:24:0"
+      },
+      {
+        "abstract": false,
+        "baseContracts": [],
+        "canonicalName": "Example",
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "fullyImplemented": true,
+        "id": 6,
+        "linearizedBaseContracts": [
+          6
+        ],
+        "name": "Example",
+        "nameLocation": "37:7:0",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "body": {
+              "id": 4,
+              "nodeType": "Block",
+              "src": "72:25:0",
+              "statements": []
+            },
+            "id": 5,
+            "implemented": true,
+            "kind": "constructor",
+            "modifiers": [],
+            "name": "",
+            "nameLocation": "-1:-1:-1",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 2,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "62:2:0"
+            },
+            "returnParameters": {
+              "id": 3,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "72:0:0"
+            },
+            "scope": 6,
+            "src": "51:46:0",
+            "stateMutability": "nonpayable",
+            "virtual": false,
+            "visibility": "public"
+          }
+        ],
+        "scope": 7,
+        "src": "28:71:0",
+        "usedErrors": []
+      }
+    ],
+    "src": "0:101:0"
+  },
+  "compiler": {
+    "name": "solc",
+    "version": "0.8.19+commit.7dd6d404.Emscripten.clang"
+  },
+  "networks": {},
+  "schemaVersion": "3.4.13",
+  "updatedAt": "2023-03-21T08:37:19.395Z",
+  "devdoc": {
+    "kind": "dev",
+    "methods": {},
+    "version": 1
+  },
+  "userdoc": {
+    "kind": "user",
+    "methods": {},
+    "version": 1
+  }
+}
